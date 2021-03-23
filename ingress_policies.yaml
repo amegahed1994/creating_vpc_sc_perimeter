@@ -8,3 +8,14 @@
       methodSelectors:
       - method: "*"
     - resources: "*"
+
+- ingressFrom:
+    identityType: ANY_IDENTITY
+    sources:
+    - resource: projects/313022682418 # project_id: lithe-record-303112
+    - accessLevel: accessPolicies/212996153568/accessLevels/myaccesslevel
+  ingressTo:
+    operations:
+    - serviceName: storage.googleapis.com
+      methodSelectors:
+      - method: "*"
