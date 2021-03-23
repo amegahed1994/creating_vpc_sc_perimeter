@@ -11,7 +11,7 @@
     resources:
     - "*"
 
-# WORKS FINE
+# Works fine!
 - ingressFrom:
     identityType: ANY_IDENTITY
     sources:
