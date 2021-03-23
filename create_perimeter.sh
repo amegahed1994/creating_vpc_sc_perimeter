@@ -19,4 +19,4 @@ gcloud beta access-context-manager perimeters create my_access_level \
   --resources=projects/812330920236 \
   --restricted-services=bigquery.googleapis.com \
   --policy=212996153568 \
-  --ingress-policies=egress_policies.yaml
+  --egress-policies=egress_policies.yaml
