@@ -1,0 +1,9 @@
+- egressTo:
+    operations:
+      - serviceName: bigquery.googleapis.com
+        methodSelectors:
+        - method: "*"
+    resources:
+    - projects/812330920236
+  egressFrom:
+    identityType: ANY_IDENTITY
