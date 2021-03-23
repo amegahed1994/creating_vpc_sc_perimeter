@@ -6,7 +6,7 @@ gcloud access-context-manager policies list \
     --organization 422800608572
 
 # Creating a perimeter with ingress policies
-gcloud access-context-manager perimeters create my_access_level \
+gcloud beta access-context-manager perimeters create my_access_level \
   --title="testing ingress policies" \
   --resources=projects/812330920236 \
   --restricted-services=bigquery.googleapis.com \
