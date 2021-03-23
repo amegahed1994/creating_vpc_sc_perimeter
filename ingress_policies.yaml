@@ -1,3 +1,4 @@
+# Doesn't work due to VPC-SC limitation
 - ingressFrom:
     identityType: ANY_IDENTITY
     sources:
@@ -10,6 +11,7 @@
     resources:
     - "*"
 
+# WORKS FINE
 - ingressFrom:
     identityType: ANY_IDENTITY
     sources:
