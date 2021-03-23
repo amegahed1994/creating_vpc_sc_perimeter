@@ -7,3 +7,4 @@
     - serviceName: bigquery.googleapis.com
       methodSelectors:
       - method: "*"
+    - resources: "*"
