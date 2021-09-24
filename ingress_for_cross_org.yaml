@@ -1,0 +1,11 @@
+- ingressFrom:
+    identityType: ANY_IDENTITY
+    sources:
+    - resource: projects/313022682418 # project_id: lithe-record-303112
+  ingressTo:
+    operations:
+    - serviceName: bigquery.googleapis.com
+      methodSelectors:
+      - method: "*"
+    resources:
+    - "*"
