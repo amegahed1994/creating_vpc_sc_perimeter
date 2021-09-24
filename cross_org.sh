@@ -7,5 +7,3 @@ gcloud access-context-manager policies list \
     
 gcloud beta access-context-manager perimeters update perimeter \ 
     --policy=20639544693 --set-ingress-policies=myingress.yaml
-
-
